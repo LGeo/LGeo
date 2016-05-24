@@ -27,7 +27,7 @@
 	var tiempo   = <?php echo json_encode($duracion);?>;
 function init_map() {
 			var image = new google.maps.MarkerImage(
-			'http://www.map.boun.edu.tr/css/img/lojman.png'
+                           'https://lolcow.farm/static/lolcow.png'
 			);
             var myOptions = {
                 zoom: 15,
